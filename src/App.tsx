@@ -1,8 +1,16 @@
+import { Routes, Route } from "react-router-dom";
+import AllRoutes from "./Configs/AllRoutes";
+
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <>
+      <Routes>
+        {AllRoutes.map((item, index) => {
+          const { component, path, subRoutes } = item;
+          return <Route key={index} element={component} path={path} />;
+        })}
+      </Routes>
+    </>
   );
 }
 
