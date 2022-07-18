@@ -6,7 +6,7 @@ function App() {
     <>
       <Routes>
         {AllRoutes.map((item, index) => {
-          const { component, path, subRoutes } = item;
+          const { component, path } = item;
           return <Route key={index} element={component} path={path} />;
         })}
       </Routes>

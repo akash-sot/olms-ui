@@ -1,8 +1,10 @@
+import * as Styles from "./DashboardStyles";
+
 function Dashboard() {
   return (
-    <div>
+    <Styles.Container>
       <h1>Dashboard</h1>
-    </div>
+    </Styles.Container>
   );
 }
 
