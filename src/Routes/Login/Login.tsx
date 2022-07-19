@@ -1,9 +1,10 @@
+import { LoginForm } from "../../Components";
 import * as Styles from "./LoginStyles";
 
 function Login() {
   return (
     <Styles.Container>
-      <h1>Login</h1>
+      <LoginForm userType="cro" />
     </Styles.Container>
   );
 }

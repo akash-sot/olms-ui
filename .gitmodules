@@ -1,3 +1,6 @@
 [submodule "src/Components/ReuseableComponents"]
 	path = src/Components/ReuseableComponents
 	url = https://github.com/akash-sot/ReuseableComponents.git
+[submodule "src/CommonMethods"]
+	path = src/CommonMethods
+	url = https://github.com/akash-sot/CommonMethods.git
